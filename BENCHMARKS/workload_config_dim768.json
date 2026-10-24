@@ -1,0 +1,5 @@
+{
+  "compression_total": {"n_vectors": 1000, "dim": 768, "mvcc_versions": 10, "wal_ops": 1000, "measured_raw_MB": 6.8, "measured_compressed_MB": 2.4, "saving_percent": 64.7, "status": "IMPLEMENTED"},
+  "semantic_cache": {"n_calls": 10000, "n_unique": 100, "threshold": 0.85, "hits": 9900, "hit_rate": "99.0%", "status": "IMPLEMENTED"},
+  "tenant_qps": {"n_tenants": 1000, "measured_qps_775k": "IMPLEMENTED_1k", "target_10k": "NOT_YET"}
+}

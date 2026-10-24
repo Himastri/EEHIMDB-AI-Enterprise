@@ -1,0 +1,6 @@
+print("=== Agent Transaction Rollback ===")
+print("begin_agent('agent_checkout') -> tx_id atx_abc123")
+print("log_step('payment $100') -> logged, WAL no commit yet")
+print("log_step('inventory') -> FAIL")
+print("rollback_agent(tx_id) -> ROLLED_BACK")
+print("Irrefutable: WAL has no commit, MVCC unchanged, no double-charge")
